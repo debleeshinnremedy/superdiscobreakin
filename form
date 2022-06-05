@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="Generator" content="EditPlus®">
+ <meta name="Author" content="">
+ <meta name="Keywords" content="">
+ <meta name="Description" content="">
+ <title>Document</title>
+
+ <script type="text/javascript">
+  function goToNewPage()
+  {
+    var url = document.getElementById('list').value;
+    if(url != 'none') {
+      window.location = url;
+    }
+  }
+</script>
+ </head>
+
+ <body class="cv-layout aui-theme-default">
+
+	<img style="https://mma.prnewswire.com/media/1140492/Remedy_Health_Media_Logo.jpg">
+
+
+ <form>
+<select name="list" id="list" accesskey="target">
+
+  <option value='none' selected>Choose a category</option>
+
+  <option value="https://forms.monday.com/forms/56e2494da12fd8c31bec99d95f6f11e0?r=use1">AP Code</option>
+
+  <option value="https://forms.monday.com/forms/6370dfcb83dc19fec895f5ac1ae169dc?r=use1">Adobe Workspace Set-up</option>
+
+  <option value="https://forms.monday.com/forms/805861210541f93a4383ee79f317fbce?r=use1">Data Request/Analysis</option>
+
+  <option value="https://forms.monday.com/forms/1cf9974d05f84a2de6647888d82fcb6a?r=use1">List Match-HCP (pre-sales)</option>
+
+	  <option value="https://forms.monday.com/forms/b5f300ef6330ff2a8247c66364d21951?r=use1">List Match-HCP (post-sales)</option>
+
+	<option value="https://forms.monday.com/forms/89805ccc30625f96b407243ca7402f26?r=use1">List Match-POC</option>
+
+	  <option value="https://forms.monday.com/forms/8e724d5f1bb5965f6a739b22666a3022?r=use1">PLD</option>
+
+	<option value="https://forms.monday.com/forms/ce889f069dfc395d8461fe0135147db3?r=use1">Tracking Set-Up</option>
+
+	  <option value="https://forms.monday.com/forms/a852d32c06ddae5f482244018633eeab?r=use1">Other</option>
+		
+</select>
+
+<input type=button value="Go" onclick="goToNewPage()" />
+</form>
+ </body>
+</html>
